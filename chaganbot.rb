@@ -1,5 +1,6 @@
 require 'telegram/bot'
 require 'socket'
+require 'geocoder'
 require 'net/http'
 require 'json'
 require 'uri'
