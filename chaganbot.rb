@@ -5,6 +5,7 @@ require 'net/http'
 require 'json'
 require 'uri'
 token = '763185869:AAFNSU1MAJNVDEbbaa5fCRk8raT4NOC9STU'
+config.assets.initialize_on_precompile = false 
 Telegram::Bot::Client.run(token) do |bot|
 	bot.listen do |message|
 		case message.text
